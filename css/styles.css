@@ -3,7 +3,9 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --logo-additional-color: #000000;
-    --footer-text-color: rgba (255, 255, 255, 60 %)
+    --background-color: #ffffff;
+    --secondary-background-color: #F5F4FA;
+    --footer-text-color: rgba (255, 255, 255, 60 %);
 }
 
 ul {
@@ -16,16 +18,19 @@ a {
 
 .page {
     color: var(--primary-text-color);
-    background-color: #F5F5F5;
+    background-color: var(--background-color);
     text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-height 1,7;
 }
-
-.header {
-    background-color: #FFFFFF;
-    }
 
 .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    font-height 1,2;
 }
 
 .nav-link {
@@ -60,7 +65,7 @@ a {
 
 
 .button {
-    color: #ffffff;
+    color: var(--background-color);
 }
 
 .button.color {
@@ -69,13 +74,14 @@ a {
 
 .regular-button {
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background-color);
 }
 
 .regular-button:hover,
 .regular-button:focus {
-    color: #ffffff;
+    color: var(--background-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .benefits {
@@ -83,27 +89,28 @@ a {
 }
 
 .solutions {
-    color: #ffffff;
+    color: var(--background-color);
 }
 
 .team {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
 }
 
 .footer {
-    background: #2F303A;
+    background-color: #2F303A;
 }
 
 address a {
     color: var(--footer-text-color);
 }
 
+address a:hover,
 address a:focus {
-
+    color: var(--accent-color);
 }
 
 .link-map {
-    color: #ffffff;
+    color: var(--background-color);
 }
     
 
