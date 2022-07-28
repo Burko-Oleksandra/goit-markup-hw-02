@@ -1,0 +1,109 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --logo-additional-color: #000000;
+    --footer-text-color: rgba (255, 255, 255, 60 %)
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    color: var(--primary-text-color);
+    background-color: #F5F5F5;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #FFFFFF;
+    }
+
+.title {
+    color: var(--title-text-color);
+}
+
+.nav-link {
+    color: var(--title-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.active {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: var(--accent-color);
+    }
+
+.logo.additional {
+ color: var(--logo-additional-color);
+}
+
+.auth-link {
+    color: var(--primary-text-color);
+}
+
+.auth-link:hover,
+.auth-link:focus {
+    color: var(--accent-color);
+}
+
+
+.button {
+    color: #ffffff;
+}
+
+.button.color {
+    background-color: var(--accent-color);
+}
+
+.regular-button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.regular-button:hover,
+.regular-button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.benefits {
+    background: #2F303A;
+}
+
+.solutions {
+    color: #ffffff;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+address a {
+    color: var(--footer-text-color);
+}
+
+address a:focus {
+
+}
+
+.link-map {
+    color: #ffffff;
+}
+    
+
